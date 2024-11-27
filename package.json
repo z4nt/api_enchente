@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +12,11 @@
   "dependencies": {
     "@sequelize/postgres": "^7.0.0-alpha.43",
     "@sequelize/sqlite3": "^7.0.0-alpha.43",
+    "body-parser": "^1.20.3",
     "express": "^4.21.1",
     "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
